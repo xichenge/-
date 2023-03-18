@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.licenter{
+    position: center;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: rgba(113, 210, 152, 0.93);
+}
+.el-table .warning-row {
+    background: oldlace;
+}
+
+.el-table .success-row {
+    background: #f0f9eb;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.tz_content {
+    width: 100%;
+    background: #282828;
+}
+
+/*t_left start*/
+.tz_content .t_left {
+    width: 200px;
+    height: 800px;
+    background: #282828;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.tz_content .t_left .l_logo {
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px solid #000000;
+}
+
+.tz_content .t_left .l_nav {
+    width: 100%;
+    border-bottom: 1px solid #414141;
+}
+
+.tz_content .t_left .l_nav ul li {
+    border-bottom: 1px solid #000000;
+    line-height: 52px;
+    border-top: 1px solid #414141;
+}
+
+.tz_content .t_left .l_nav ul li a {
+    display: block;
+    padding-left: 30px;
+}
+
+.tz_content .t_left .l_nav ul li a:hover {
+    background: #28b779;
+}
+
+.a1{
+    background: #28b779;
+}
+
+
+.tz_content .t_left .l_nav ul li a i {
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+
+
+.tz_content .t_left .l_nav ul li a .icon_6 {
+    background-position: -315px -52px;
+    width: 19px;
+    height: 6px;
+    margin-top: 24px;
+}
+
+.tz_content .t_left .l_nav ul li a span {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/*end t_left*/
+
+/*t_header start*/
+.tz_content .t_header {
+    width: 100%;
+    height: 56px;
+    background: #2f3437;
+    position: relative;
+    z-index: 1;
+}
+
+/*h_nav start*/
+.tz_content .t_header .h_nav {
+    height: 56px;
+    margin-left: 200px;
+    float: left;
+}
+
+.tz_content .t_header .h_nav ul li {
+    float: left;
+    width: 110px;
+    height: 56px;
+    border-left: 1px solid #414141;
+    border-right: 1px solid #000;
+}
+
+.tz_content .t_header .h_nav ul li a {
+    display: block;
+    color: #838383;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.tz_content .t_header .h_nav ul li a:hover {
+    color: #fff;
+}
+
+/*h_info start*/
+.tz_content .t_header .h_info {
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.tz_content .t_header .h_info .h_user {
+    line-height: 56px;
+    color: #fff;
+    float: left;
+}
+
+.tz_content .t_header .h_info .h_out {
+    width: 65px;
+    height: 30px;
+    background: #28b779;
+    margin: 13px 5px 0 10px;
+    float: right;
+}
+
+.tz_content .t_header .h_info .h_out a {
+    display: block;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.tz_content .t_header .h_info .h_out a span {
+    float: left;
+}
+
+
+/*end h_info*/
+
+/*end header*/
+
+.tz_content .t_right {
+    height: auto;
+    background: #f3f4f5;
+    margin-left: 200px;
+}
+
+/*r_location start*/
+.tz_content .t_right .r_location {
+    height: 51px;
+    background: rgba(0, 0, 0, 0.91);
+    border-bottom: 1px solid #ccc;
+    line-height: 51px;
+}
+
+.t_right tr{
+    font-size: large;
+    font-family: "微软雅黑";
+    background: rgba(21, 24, 21, 0.55);
+}
+
+.input2{
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    position: relative;
+    /*outline: none;*/
+    /*border: none;*/
+    box-sizing: border-box;
+    /*padding-left: 5px;*/
+    background: gray;
+    color: #61dafb;
+    caret-color: #61dafb;
+}
+
+
+
+/*清除浮动*/
+.clear {
+    clear: both;
+}
+
+/*r_table start*/
+.tz_content .t_right .r_table {
+    border: 1px solid #ccc;
+    margin: 0 1% 0 1%;
+    background: #fff;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tz_content .t_right .r_table .r_title {
+    width: 100%;
+    height: 40px;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+.tz_content .t_right .r_table .r_title p {
+    height: 40px;
+    line-height: 40px;
+    border-left: 1px solid #ccc;
+    float: left;
+    padding-left: 5px;
+    color: #000;
+}
+
+.tz_content .t_right .r_table .r_label {
+    width: 80%;
+    height: 100px;
+    float: left;
+}
+
+.tz_content .t_right .r_table .r_label ul li {
+    list-style: none;
+    float: left;
+    background: #999;
+    margin: 10px 10px 0 10px;
+}
+
+.tz_content .t_right .r_table .r_label ul li a {
+    display: block;
+    padding: 8px 20px;
+    color: #fff;
+}
+
+.tz_content .t_right .r_table .r_label ul li a:hover {
+    background: #28b779;
+}
+
+.tz_content .t_right .r_table .r_label ul .select a {
+    background: #28b779;
+}
+
+.tz_content .t_right .r_table .r_label ul li a i {
+    width: 15px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.tz_content .t_right .r_table .r_search {
+    width: 19%;
+    height: 30px;
+    float: left;
+    padding-top: 10px;
+}
+
+.tz_content .t_right .r_table .r_search .r_text {
+    width: 60%;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ddd;
+    float: right;
+}
+
+.tz_content .t_right .r_table .r_search .r_btn {
+    width: 20%;
+    height: 29px;
+    background: #999;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    float: right;
+}
+
+
+.tz_content .t_right .r_table .r_table_list {
+    width: 100%;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab {
+    border-collapse: collapse;
+    width: 98%;
+    text-align: center;
+    margin: 0 1%;
+}
+
+.tz_content .t_right .r_table .r_table_list tr th {
+    line-height: 40px;
+    background: #eee;
+}
+
+.tz_content .t_right .r_table .r_table_list tr td {
+    border: 1px solid #ddd;
+    line-height: 40px;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab thead {
+    border: 1px solid #ddd;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab tbody tr:hover {
+    background: #EAEAEA;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab tbody tr:hover .t_action {
+    display: block;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab tbody tr td .t_action {
+    width: 108px;
+    height: 24px;
+    margin: 0 auto;
+    display: none;
+}
+
+.tz_content .t_right .r_table .r_table_list .t_tab tbody tr .t_td {
+    width: 120px;
+}
+
+.sgBtn{width: 55px; height: 25px; line-height: 35px;
+    margin-left: 10px; margin-top: 10px; text-align: center;
+    background-color: #0095D9; color: #FFFFFF; float: left; border-radius: 5px;}
+
+
+
